@@ -44,7 +44,7 @@ type_dmx get_diamatrix(DiaMatrix * matrix, int i, int j) {
     return matrix->data[index_diamatrix(i, j)];
 }
 
-void print_trimatrix(DiaMatrix * matrix) {
+void print_diamatrix(DiaMatrix * matrix) {
     for (int i = 0; i < DIASIZE; i++) {
         if (i) printf("\n");
         printf("[ ");
